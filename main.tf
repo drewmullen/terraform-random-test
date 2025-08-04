@@ -4,5 +4,4 @@ resource "random_id" "name" {
 
 output "name" {
   value = random_id.name.hex
-  
 }
