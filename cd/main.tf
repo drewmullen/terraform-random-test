@@ -3,7 +3,7 @@ resource "random_id" "cd_name" {
 }
 
 output "cd_name" {
-  value = random_id.name.hex
+  value = random_id.cd_name.hex
 }
 
 terraform {
