@@ -12,7 +12,6 @@ terraform {
     workspaces {
       project = "scratch"
       name = "cd-test-#{Octopus.Environment.Name}"
-      ##{workspace_name}
     }
   }
 }
