@@ -18,7 +18,7 @@ terraform {
   cloud {
     workspaces {
       project = "#{Octopus.Project.Name}-#{Octopus.Environment.Name}"
-      name = "base_layer"
+      name = "base_layer-#{Octopus.Environment.Name}"
     }
   }
 }
